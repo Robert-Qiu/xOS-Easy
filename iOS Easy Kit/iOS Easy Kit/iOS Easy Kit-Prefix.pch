@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'iOS Easy Kit' target in the 'iOS Easy Kit' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
