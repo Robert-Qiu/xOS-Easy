@@ -8,15 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		E115467B1405319700DB7F8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E115467A1405319700DB7F8D /* Foundation.framework */; };
-		E11546811405319700DB7F8D /* iOS Easy Kit.m in Sources */ = {isa = PBXBuildFile; fileRef = E11546801405319700DB7F8D /* iOS Easy Kit.m */; };
 		E11546891405319700DB7F8D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11546881405319700DB7F8D /* SenTestingKit.framework */; };
-		E115468B1405319700DB7F8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E115468A1405319700DB7F8D /* UIKit.framework */; };
 		E115468C1405319700DB7F8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E115467A1405319700DB7F8D /* Foundation.framework */; };
-		E115468E1405319700DB7F8D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E115468D1405319700DB7F8D /* CoreGraphics.framework */; };
 		E11546911405319700DB7F8D /* libiOS Easy Kit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E11546771405319700DB7F8D /* libiOS Easy Kit.a */; };
 		E11546971405319700DB7F8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E11546951405319700DB7F8D /* InfoPlist.strings */; };
-		E11546991405319700DB7F8D /* iOS_Easy_KitTests.h in Resources */ = {isa = PBXBuildFile; fileRef = E11546981405319700DB7F8D /* iOS_Easy_KitTests.h */; };
-		E115469B1405319700DB7F8D /* iOS_Easy_KitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E115469A1405319700DB7F8D /* iOS_Easy_KitTests.m */; };
+		E11546991405319700DB7F8D /* IEKCryptoTests.h in Resources */ = {isa = PBXBuildFile; fileRef = E11546981405319700DB7F8D /* IEKCryptoTests.h */; };
+		E115469B1405319700DB7F8D /* IEKCryptoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E115469A1405319700DB7F8D /* IEKCryptoTests.m */; };
+		E11546A614054B0E00DB7F8D /* NSString+IEK.h in Headers */ = {isa = PBXBuildFile; fileRef = E11546A414054B0E00DB7F8D /* NSString+IEK.h */; };
+		E11546A714054B0E00DB7F8D /* NSString+IEK.m in Sources */ = {isa = PBXBuildFile; fileRef = E11546A514054B0E00DB7F8D /* NSString+IEK.m */; };
+		E11546AB1405D21800DB7F8D /* IEKDigest.h in Headers */ = {isa = PBXBuildFile; fileRef = E11546A91405D21800DB7F8D /* IEKDigest.h */; };
+		E11546AC1405D21800DB7F8D /* IEKDigest.m in Sources */ = {isa = PBXBuildFile; fileRef = E11546AA1405D21800DB7F8D /* IEKDigest.m */; };
+		E1C735AE1406A8440048FF8B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C735AD1406A8440048FF8B /* CoreGraphics.framework */; };
+		E1C735B01406A86B0048FF8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C735AF1406A86B0048FF8B /* UIKit.framework */; };
+		E1E6138C140674D7007BC75C /* NSDate+IEK.h in Headers */ = {isa = PBXBuildFile; fileRef = E1E6138A140674D7007BC75C /* NSDate+IEK.h */; };
+		E1E6138D140674D7007BC75C /* NSDate+IEK.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E6138B140674D7007BC75C /* NSDate+IEK.m */; };
+		E1E6139114068B17007BC75C /* IEKHmac.h in Headers */ = {isa = PBXBuildFile; fileRef = E1E6138F14068B17007BC75C /* IEKHmac.h */; };
+		E1E6139214068B17007BC75C /* IEKHmac.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E6139014068B17007BC75C /* IEKHmac.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,16 +40,23 @@
 		E11546771405319700DB7F8D /* libiOS Easy Kit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libiOS Easy Kit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E115467A1405319700DB7F8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E115467E1405319700DB7F8D /* iOS Easy Kit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS Easy Kit-Prefix.pch"; sourceTree = "<group>"; };
-		E115467F1405319700DB7F8D /* iOS Easy Kit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS Easy Kit.h"; sourceTree = "<group>"; };
-		E11546801405319700DB7F8D /* iOS Easy Kit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS Easy Kit.m"; sourceTree = "<group>"; };
+		E115467F1405319700DB7F8D /* iOSEasyKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSEasyKit.h; sourceTree = "<group>"; };
 		E11546871405319700DB7F8D /* iOS Easy KitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Easy KitTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11546881405319700DB7F8D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		E115468A1405319700DB7F8D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		E115468D1405319700DB7F8D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		E11546941405319700DB7F8D /* iOS Easy KitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS Easy KitTests-Info.plist"; sourceTree = "<group>"; };
 		E11546961405319700DB7F8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E11546981405319700DB7F8D /* iOS_Easy_KitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS_Easy_KitTests.h; sourceTree = "<group>"; };
-		E115469A1405319700DB7F8D /* iOS_Easy_KitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Easy_KitTests.m; sourceTree = "<group>"; };
+		E11546981405319700DB7F8D /* IEKCryptoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IEKCryptoTests.h; sourceTree = "<group>"; };
+		E115469A1405319700DB7F8D /* IEKCryptoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IEKCryptoTests.m; sourceTree = "<group>"; };
+		E11546A414054B0E00DB7F8D /* NSString+IEK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IEK.h"; sourceTree = "<group>"; };
+		E11546A514054B0E00DB7F8D /* NSString+IEK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IEK.m"; sourceTree = "<group>"; };
+		E11546A91405D21800DB7F8D /* IEKDigest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEKDigest.h; sourceTree = "<group>"; };
+		E11546AA1405D21800DB7F8D /* IEKDigest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEKDigest.m; sourceTree = "<group>"; };
+		E1C735AD1406A8440048FF8B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E1C735AF1406A86B0048FF8B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E1E6138A140674D7007BC75C /* NSDate+IEK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+IEK.h"; sourceTree = "<group>"; };
+		E1E6138B140674D7007BC75C /* NSDate+IEK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+IEK.m"; sourceTree = "<group>"; };
+		E1E6138F14068B17007BC75C /* IEKHmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEKHmac.h; sourceTree = "<group>"; };
+		E1E6139014068B17007BC75C /* IEKHmac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEKHmac.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1C735B01406A86B0048FF8B /* UIKit.framework in Frameworks */,
+				E1C735AE1406A8440048FF8B /* CoreGraphics.framework in Frameworks */,
 				E115467B1405319700DB7F8D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -59,9 +75,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E11546891405319700DB7F8D /* SenTestingKit.framework in Frameworks */,
-				E115468B1405319700DB7F8D /* UIKit.framework in Frameworks */,
 				E115468C1405319700DB7F8D /* Foundation.framework in Frameworks */,
-				E115468E1405319700DB7F8D /* CoreGraphics.framework in Frameworks */,
 				E11546911405319700DB7F8D /* libiOS Easy Kit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -91,10 +105,10 @@
 		E11546791405319700DB7F8D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E1C735AF1406A86B0048FF8B /* UIKit.framework */,
+				E1C735AD1406A8440048FF8B /* CoreGraphics.framework */,
 				E115467A1405319700DB7F8D /* Foundation.framework */,
 				E11546881405319700DB7F8D /* SenTestingKit.framework */,
-				E115468A1405319700DB7F8D /* UIKit.framework */,
-				E115468D1405319700DB7F8D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -102,8 +116,9 @@
 		E115467C1405319700DB7F8D /* iOS Easy Kit */ = {
 			isa = PBXGroup;
 			children = (
-				E115467F1405319700DB7F8D /* iOS Easy Kit.h */,
-				E11546801405319700DB7F8D /* iOS Easy Kit.m */,
+				E11546AD1405D22F00DB7F8D /* Crypto */,
+				E11546A814054B3500DB7F8D /* Categories */,
+				E115467F1405319700DB7F8D /* iOSEasyKit.h */,
 				E115467D1405319700DB7F8D /* Supporting Files */,
 			);
 			path = "iOS Easy Kit";
@@ -120,8 +135,8 @@
 		E11546921405319700DB7F8D /* iOS Easy KitTests */ = {
 			isa = PBXGroup;
 			children = (
-				E11546981405319700DB7F8D /* iOS_Easy_KitTests.h */,
-				E115469A1405319700DB7F8D /* iOS_Easy_KitTests.m */,
+				E11546981405319700DB7F8D /* IEKCryptoTests.h */,
+				E115469A1405319700DB7F8D /* IEKCryptoTests.m */,
 				E11546931405319700DB7F8D /* Supporting Files */,
 			);
 			path = "iOS Easy KitTests";
@@ -136,6 +151,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E11546A814054B3500DB7F8D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E11546A414054B0E00DB7F8D /* NSString+IEK.h */,
+				E11546A514054B0E00DB7F8D /* NSString+IEK.m */,
+				E1E6138A140674D7007BC75C /* NSDate+IEK.h */,
+				E1E6138B140674D7007BC75C /* NSDate+IEK.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		E11546AD1405D22F00DB7F8D /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				E11546A91405D21800DB7F8D /* IEKDigest.h */,
+				E11546AA1405D21800DB7F8D /* IEKDigest.m */,
+				E1E6138F14068B17007BC75C /* IEKHmac.h */,
+				E1E6139014068B17007BC75C /* IEKHmac.m */,
+			);
+			name = Crypto;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -143,6 +180,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E11546A614054B0E00DB7F8D /* NSString+IEK.h in Headers */,
+				E11546AB1405D21800DB7F8D /* IEKDigest.h in Headers */,
+				E1E6138C140674D7007BC75C /* NSDate+IEK.h in Headers */,
+				E1E6139114068B17007BC75C /* IEKHmac.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,7 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E11546971405319700DB7F8D /* InfoPlist.strings in Resources */,
-				E11546991405319700DB7F8D /* iOS_Easy_KitTests.h in Resources */,
+				E11546991405319700DB7F8D /* IEKCryptoTests.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E11546811405319700DB7F8D /* iOS Easy Kit.m in Sources */,
+				E11546A714054B0E00DB7F8D /* NSString+IEK.m in Sources */,
+				E11546AC1405D21800DB7F8D /* IEKDigest.m in Sources */,
+				E1E6138D140674D7007BC75C /* NSDate+IEK.m in Sources */,
+				E1E6139214068B17007BC75C /* IEKHmac.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E115469B1405319700DB7F8D /* iOS_Easy_KitTests.m in Sources */,
+				E115469B1405319700DB7F8D /* IEKCryptoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +339,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -311,6 +356,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -319,6 +365,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/iOS_Easy_Kit.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOS Easy Kit/iOS Easy Kit-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
@@ -332,6 +382,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/iOS_Easy_Kit.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOS Easy Kit/iOS Easy Kit-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
@@ -390,6 +444,7 @@
 				E11546A01405319700DB7F8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E11546A11405319700DB7F8D /* Build configuration list for PBXNativeTarget "iOS Easy KitTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +453,7 @@
 				E11546A31405319700DB7F8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
