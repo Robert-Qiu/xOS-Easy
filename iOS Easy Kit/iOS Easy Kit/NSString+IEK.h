@@ -8,10 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (NSString_IEK)
+@interface NSString (IEK)
 
 - (NSString*)urlEncodedString;
-- (NSString*)base64String;
+- (NSString*)urlDecodedString;
+- (NSString*)base64EncodedString;
+- (NSString*)base64DecodedString;
 - (NSString*)MD5String;
 - (NSString*)SHA1String;
 - (NSString*)hmacMD5StringWithKey:(NSString*)key;

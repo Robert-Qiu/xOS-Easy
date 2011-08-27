@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSDate (NSDate_IEK)
+@interface NSDate (IEK)
 
 @end

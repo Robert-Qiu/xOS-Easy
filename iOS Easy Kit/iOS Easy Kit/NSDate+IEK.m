@@ -8,6 +8,6 @@
 
 #import "NSDate+IEK.h"
 
-@implementation NSDate (NSDate_IEK)
+@implementation NSDate (IEK)
 
 @end
