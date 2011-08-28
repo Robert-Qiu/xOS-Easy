@@ -2,7 +2,7 @@
 //  NSDate+IEK.h
 //  iOS Easy Kit
 //
-//  Created by Wei Jia Qiu on 8/25/11.
+//  Created by Robert Qiu on 8/25/11.
 //  Copyright 2011 Robert Qiu. All rights reserved.
 //
 

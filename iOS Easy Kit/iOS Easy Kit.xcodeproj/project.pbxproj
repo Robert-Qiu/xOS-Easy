@@ -28,6 +28,14 @@
 		E1F02A581408816E000610A7 /* IEKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F02A561408816E000610A7 /* IEKBase64.m */; };
 		E1F02A5B1409165C000610A7 /* IEKCodingTests.h in Headers */ = {isa = PBXBuildFile; fileRef = E1F02A591409165C000610A7 /* IEKCodingTests.h */; };
 		E1F02A5D140917A5000610A7 /* IEKCodingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F02A5A1409165C000610A7 /* IEKCodingTests.m */; };
+		E1F02A671409D417000610A7 /* UIFont+IEK.h in Headers */ = {isa = PBXBuildFile; fileRef = E1F02A651409D417000610A7 /* UIFont+IEK.h */; };
+		E1F02A681409D417000610A7 /* UIFont+IEK.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F02A661409D417000610A7 /* UIFont+IEK.m */; };
+		E1F02A6D1409D719000610A7 /* UIColor+IEK.h in Headers */ = {isa = PBXBuildFile; fileRef = E1F02A6B1409D719000610A7 /* UIColor+IEK.h */; };
+		E1F02A6E1409D719000610A7 /* UIColor+IEK.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F02A6C1409D719000610A7 /* UIColor+IEK.m */; };
+		E1F02A711409D76B000610A7 /* IEKFontManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E1F02A6F1409D76B000610A7 /* IEKFontManager.h */; };
+		E1F02A721409D76B000610A7 /* IEKFontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F02A701409D76B000610A7 /* IEKFontManager.m */; };
+		E1F02A751409D782000610A7 /* IEKColorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E1F02A731409D782000610A7 /* IEKColorManager.h */; };
+		E1F02A761409D782000610A7 /* IEKColorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F02A741409D782000610A7 /* IEKColorManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +73,14 @@
 		E1F02A561408816E000610A7 /* IEKBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEKBase64.m; sourceTree = "<group>"; };
 		E1F02A591409165C000610A7 /* IEKCodingTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEKCodingTests.h; sourceTree = "<group>"; };
 		E1F02A5A1409165C000610A7 /* IEKCodingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEKCodingTests.m; sourceTree = "<group>"; };
+		E1F02A651409D417000610A7 /* UIFont+IEK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+IEK.h"; sourceTree = "<group>"; };
+		E1F02A661409D417000610A7 /* UIFont+IEK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+IEK.m"; sourceTree = "<group>"; };
+		E1F02A6B1409D719000610A7 /* UIColor+IEK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+IEK.h"; sourceTree = "<group>"; };
+		E1F02A6C1409D719000610A7 /* UIColor+IEK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+IEK.m"; sourceTree = "<group>"; };
+		E1F02A6F1409D76B000610A7 /* IEKFontManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEKFontManager.h; sourceTree = "<group>"; };
+		E1F02A701409D76B000610A7 /* IEKFontManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEKFontManager.m; sourceTree = "<group>"; };
+		E1F02A731409D782000610A7 /* IEKColorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEKColorManager.h; sourceTree = "<group>"; };
+		E1F02A741409D782000610A7 /* IEKColorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEKColorManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +140,7 @@
 		E115467C1405319700DB7F8D /* iOS Easy Kit */ = {
 			isa = PBXGroup;
 			children = (
+				E1F02A6A1409D6C2000610A7 /* Resource */,
 				E1F02A5314088130000610A7 /* Coding */,
 				E11546AD1405D22F00DB7F8D /* Crypto */,
 				E11546A814054B3500DB7F8D /* Categories */,
@@ -169,6 +186,10 @@
 				E11546A514054B0E00DB7F8D /* NSString+IEK.m */,
 				E1E6138A140674D7007BC75C /* NSDate+IEK.h */,
 				E1E6138B140674D7007BC75C /* NSDate+IEK.m */,
+				E1F02A651409D417000610A7 /* UIFont+IEK.h */,
+				E1F02A661409D417000610A7 /* UIFont+IEK.m */,
+				E1F02A6B1409D719000610A7 /* UIColor+IEK.h */,
+				E1F02A6C1409D719000610A7 /* UIColor+IEK.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -193,6 +214,17 @@
 			name = Coding;
 			sourceTree = "<group>";
 		};
+		E1F02A6A1409D6C2000610A7 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E1F02A6F1409D76B000610A7 /* IEKFontManager.h */,
+				E1F02A701409D76B000610A7 /* IEKFontManager.m */,
+				E1F02A731409D782000610A7 /* IEKColorManager.h */,
+				E1F02A741409D782000610A7 /* IEKColorManager.m */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -206,6 +238,10 @@
 				E1E6139114068B17007BC75C /* IEKHmac.h in Headers */,
 				E1F02A571408816E000610A7 /* IEKBase64.h in Headers */,
 				E1F02A5B1409165C000610A7 /* IEKCodingTests.h in Headers */,
+				E1F02A671409D417000610A7 /* UIFont+IEK.h in Headers */,
+				E1F02A6D1409D719000610A7 /* UIColor+IEK.h in Headers */,
+				E1F02A711409D76B000610A7 /* IEKFontManager.h in Headers */,
+				E1F02A751409D782000610A7 /* IEKColorManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +345,10 @@
 				E1E6138D140674D7007BC75C /* NSDate+IEK.m in Sources */,
 				E1E6139214068B17007BC75C /* IEKHmac.m in Sources */,
 				E1F02A581408816E000610A7 /* IEKBase64.m in Sources */,
+				E1F02A681409D417000610A7 /* UIFont+IEK.m in Sources */,
+				E1F02A6E1409D719000610A7 /* UIColor+IEK.m in Sources */,
+				E1F02A721409D76B000610A7 /* IEKFontManager.m in Sources */,
+				E1F02A761409D782000610A7 /* IEKColorManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
