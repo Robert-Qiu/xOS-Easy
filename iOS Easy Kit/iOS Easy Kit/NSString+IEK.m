@@ -13,6 +13,19 @@
 
 @implementation NSString (IEK)
 
++ (NSString*)timestampString
+{
+    return [NSString stringWithFormat:@"%ld", time(NULL)];
+}
+
++ (NSString*)UUIDString
+{
+    CFUUIDRef	uuidObj = CFUUIDCreate(nil); //create a new UUID
+    NSString *uuidString = (NSString*)CFUUIDCreateString(nil, uuidObj);//get the string representation of the UUID
+    CFRelease(uuidObj);
+    return [uuidString autorelease];
+}
+
 - (NSString*)urlEncodedString
 {
     NSArray *escapeChars = [NSArray arrayWithObjects:

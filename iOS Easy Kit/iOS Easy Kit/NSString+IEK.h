@@ -10,6 +10,8 @@
 
 @interface NSString (IEK)
 
++ (NSString*)timestampString;
++ (NSString*)UUIDString;
 - (NSString*)urlEncodedString;
 - (NSString*)urlDecodedString;
 - (NSString*)base64EncodedString;

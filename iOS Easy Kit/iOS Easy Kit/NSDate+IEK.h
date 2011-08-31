@@ -10,4 +10,9 @@
 
 @interface NSDate (IEK)
 
+- (NSDate*)addDays:(int)days;
+- (NSDate*)addWeeks:(int)weeks;
+- (NSDate*)addMonths:(int)months;
+- (NSDate*)addYears:(int)years;
+
 @end
