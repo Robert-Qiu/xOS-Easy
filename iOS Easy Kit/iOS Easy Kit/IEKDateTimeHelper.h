@@ -16,11 +16,11 @@
 + (IEKDateTimeHelper*)defaultHelper;
 - (id)initWithCalendarIdentifier:(NSString*)key;
 
-- (NSDate*)dateByAddHours:(int)hours minutes:(int)minutes seconds:(int)seconds fromDate:(NSDate*)date;
-- (NSDate*)dateByAddDays:(int)days fromDate:(NSDate*)date;
-- (NSDate*)dateByAddWeeks:(int)weeks fromDate:(NSDate*)date;
-- (NSDate*)dateByAddMonths:(int)months fromDate:(NSDate*)date;
-- (NSDate*)dateByAddYears:(int)years fromDate:(NSDate*)date;;
+- (NSDate*)dateByAddHours:(int)hours minutes:(int)minutes seconds:(int)seconds toDate:(NSDate*)date;
+- (NSDate*)dateByAddDays:(int)days toDate:(NSDate*)date;
+- (NSDate*)dateByAddWeeks:(int)weeks toDate:(NSDate*)date;
+- (NSDate*)dateByAddMonths:(int)months toDate:(NSDate*)date;
+- (NSDate*)dateByAddYears:(int)years toDate:(NSDate*)date;;
 
 
 @end

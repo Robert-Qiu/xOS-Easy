@@ -34,29 +34,54 @@ static IEKDateTimeHelper *_defaultHelper;
     return [self initWithCalendarIdentifier:NSGregorianCalendar];
 }
 
-- (NSDate*)dateByAddHours:(int)hours minutes:(int)minutes seconds:(int)seconds fromDate:(NSDate*)date
+- (NSDate*)dateByAddHours:(int)hours minutes:(int)minutes seconds:(int)seconds toDate:(NSDate*)date
 {
-    return nil;
+    NSDateComponents *addComponets = [[NSDateComponents alloc] init];
+    [addComponets setHour:hours];
+    [addComponets setMinute:minutes];
+    [addComponets setSecond:seconds];
+    NSDate* newDate = [curCalendar dateByAddingComponents:addComponets toDate:date options:0];
+    [addComponets release];
+    return newDate;
 }
 
-- (NSDate*)dateByAddDays:(int)days fromDate:(NSDate*)date
+- (NSDate*)dateByAddDays:(int)days toDate:(NSDate*)date
 {
-    return nil;
+    NSDateComponents *addComponets = [[NSDateComponents alloc] init];
+    [addComponets setDay:days];
+    NSDate* newDate = [curCalendar dateByAddingComponents:addComponets toDate:date options:0];
+    [addComponets release];
+    return newDate;
+
 }
 
-- (NSDate*)dateByAddWeeks:(int)weeks fromDate:(NSDate*)date
+- (NSDate*)dateByAddWeeks:(int)weeks toDate:(NSDate*)date
 {
-    return nil;
+    NSDateComponents *addComponets = [[NSDateComponents alloc] init];
+    [addComponets setWeek:weeks];
+    NSDate* newDate = [curCalendar dateByAddingComponents:addComponets toDate:date options:0];
+    [addComponets release];
+    return newDate;
+
 }
 
-- (NSDate*)dateByAddMonths:(int)months fromDate:(NSDate*)date
+- (NSDate*)dateByAddMonths:(int)months toDate:(NSDate*)date
 {
-    return nil;
+    NSDateComponents *addComponets = [[NSDateComponents alloc] init];
+    [addComponets setMonth:months];
+    NSDate* newDate = [curCalendar dateByAddingComponents:addComponets toDate:date options:0];
+    [addComponets release];
+    return newDate;
+
 }
 
-- (NSDate*)dateByAddYears:(int)years fromDate:(NSDate*)date
+- (NSDate*)dateByAddYears:(int)years toDate:(NSDate*)date
 {
-    return nil;
+    NSDateComponents *addComponets = [[NSDateComponents alloc] init];
+    [addComponets setYear:years];
+    NSDate* newDate = [curCalendar dateByAddingComponents:addComponets toDate:date options:0];
+    [addComponets release];
+    return newDate;
 }
 
 

@@ -7,27 +7,28 @@
 //
 
 #import "NSDate+IEK.h"
+#import "IEKDateTimeHelper.h"
 
 @implementation NSDate (IEK)
 
-- (NSDate*)addDays:(int)days
+- (NSDate*)dateByAddDays:(int)days
 {
-    
+    return [[IEKDateTimeHelper defaultHelper] dateByAddDays:days toDate:self];
 }
 
-- (NSDate*)addWeeks:(int)weeks
+- (NSDate*)dateByAddWeeks:(int)weeks
 {
-    
+    return [[IEKDateTimeHelper defaultHelper] dateByAddWeeks:weeks toDate:self];
 }
 
-- (NSDate*)addMonths:(int)months
+- (NSDate*)dateByAddMonths:(int)months
 {
-    
+    return [[IEKDateTimeHelper defaultHelper] dateByAddMonths:months toDate:self];
 }
 
-- (NSDate*)addYears:(int)years
+- (NSDate*)dateByAddYears:(int)years
 {
-    
+    return [[IEKDateTimeHelper defaultHelper] dateByAddYears:years toDate:self];
 }
 
 @end
