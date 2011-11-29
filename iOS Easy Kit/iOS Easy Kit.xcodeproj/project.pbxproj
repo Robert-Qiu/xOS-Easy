@@ -322,9 +322,8 @@
 		E168DA1F148478D400380F7A /* Web */ = {
 			isa = PBXGroup;
 			children = (
-				E1C0B8DC1483361F00FCB2B1 /* Twitter */,
 			);
-			name = Web;
+			path = Web;
 			sourceTree = "<group>";
 		};
 		E168DA20148479A000380F7A /* ASIHttpRequest */ = {
@@ -424,13 +423,6 @@
 				E168DA921484817B00380F7A /* IEKHmac.m */,
 			);
 			path = Utility;
-			sourceTree = "<group>";
-		};
-		E1C0B8DC1483361F00FCB2B1 /* Twitter */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Twitter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
