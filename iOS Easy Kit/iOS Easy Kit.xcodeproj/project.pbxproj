@@ -10,7 +10,7 @@
 		E115467B1405319700DB7F8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E115467A1405319700DB7F8D /* Foundation.framework */; };
 		E11546891405319700DB7F8D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11546881405319700DB7F8D /* SenTestingKit.framework */; };
 		E115468C1405319700DB7F8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E115467A1405319700DB7F8D /* Foundation.framework */; };
-		E11546911405319700DB7F8D /* libiOS Easy Kit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E11546771405319700DB7F8D /* libiOS Easy Kit.a */; };
+		E11546911405319700DB7F8D /* libiOSEasyKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E11546771405319700DB7F8D /* libiOSEasyKit.a */; };
 		E11546971405319700DB7F8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E11546951405319700DB7F8D /* InfoPlist.strings */; };
 		E11546991405319700DB7F8D /* IEKCryptoTests.h in Resources */ = {isa = PBXBuildFile; fileRef = E11546981405319700DB7F8D /* IEKCryptoTests.h */; };
 		E115469B1405319700DB7F8D /* IEKCryptoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E115469A1405319700DB7F8D /* IEKCryptoTests.m */; };
@@ -77,6 +77,23 @@
 		E168DA9C1484817B00380F7A /* IEKFontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E168DA901484817B00380F7A /* IEKFontManager.m */; };
 		E168DA9D1484817B00380F7A /* IEKHmac.h in Headers */ = {isa = PBXBuildFile; fileRef = E168DA911484817B00380F7A /* IEKHmac.h */; };
 		E168DA9E1484817B00380F7A /* IEKHmac.m in Sources */ = {isa = PBXBuildFile; fileRef = E168DA921484817B00380F7A /* IEKHmac.m */; };
+		E19D95DF1484A38700C24253 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = E19D95DB1484A38700C24253 /* Reachability.h */; };
+		E19D95E01484A38700C24253 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E19D95DC1484A38700C24253 /* Reachability.m */; };
+		E19D95E71484A43600C24253 /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E19D95E41484A43600C24253 /* JSONKit.h */; };
+		E19D95E81484A43600C24253 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E19D95E51484A43600C24253 /* JSONKit.m */; };
+		E19D95EE1484A57400C24253 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E19D95ED1484A57400C24253 /* libxml2.dylib */; };
+		E19D95EF1484A57B00C24253 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E19D95ED1484A57400C24253 /* libxml2.dylib */; };
+		E19D95F01484A64100C24253 /* JSONKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E19D95EA1484A48900C24253 /* JSONKitTests.m */; };
+		E19D95F11484A93400C24253 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C735AF1406A86B0048FF8B /* UIKit.framework */; };
+		E19D95F21484A94E00C24253 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C735AD1406A8440048FF8B /* CoreGraphics.framework */; };
+		E19D95F41484AB6600C24253 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E19D95F31484AB6600C24253 /* libz.dylib */; };
+		E19D95F51484AB7700C24253 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E19D95F31484AB6600C24253 /* libz.dylib */; };
+		E19D95F71484ACCD00C24253 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E19D95F61484ACCD00C24253 /* CFNetwork.framework */; };
+		E19D95F81484ACD000C24253 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E19D95F61484ACCD00C24253 /* CFNetwork.framework */; };
+		E19D95FE1484B19700C24253 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E19D95FD1484B19700C24253 /* SystemConfiguration.framework */; };
+		E19D95FF1484B1AB00C24253 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E19D95FD1484B19700C24253 /* SystemConfiguration.framework */; };
+		E19D96011484B26300C24253 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E19D96001484B26300C24253 /* MobileCoreServices.framework */; };
+		E19D96021484B26700C24253 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E19D96001484B26300C24253 /* MobileCoreServices.framework */; };
 		E1C0B8E014833ADE00FCB2B1 /* UIDevice+IEK.h in Headers */ = {isa = PBXBuildFile; fileRef = E1C0B8DE14833ADE00FCB2B1 /* UIDevice+IEK.h */; };
 		E1C0B8E114833ADE00FCB2B1 /* UIDevice+IEK.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C0B8DF14833ADE00FCB2B1 /* UIDevice+IEK.m */; };
 		E1C735AE1406A8440048FF8B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C735AD1406A8440048FF8B /* CoreGraphics.framework */; };
@@ -107,7 +124,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E11546771405319700DB7F8D /* libiOS Easy Kit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libiOS Easy Kit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11546771405319700DB7F8D /* libiOSEasyKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiOSEasyKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E115467A1405319700DB7F8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E115467E1405319700DB7F8D /* iOS Easy Kit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS Easy Kit-Prefix.pch"; sourceTree = "<group>"; };
 		E115467F1405319700DB7F8D /* iOSEasyKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSEasyKit.h; sourceTree = "<group>"; };
@@ -180,6 +197,23 @@
 		E168DA901484817B00380F7A /* IEKFontManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEKFontManager.m; sourceTree = "<group>"; };
 		E168DA911484817B00380F7A /* IEKHmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEKHmac.h; sourceTree = "<group>"; };
 		E168DA921484817B00380F7A /* IEKHmac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEKHmac.m; sourceTree = "<group>"; };
+		E19D95D61484A38700C24253 /* DONORS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DONORS; sourceTree = "<group>"; };
+		E19D95D91484A38700C24253 /* README-GHUnit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "README-GHUnit"; sourceTree = "<group>"; };
+		E19D95DB1484A38700C24253 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		E19D95DC1484A38700C24253 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		E19D95DD1484A38700C24253 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E19D95DE1484A38700C24253 /* README.textile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.textile; sourceTree = "<group>"; };
+		E19D95E31484A43600C24253 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.md; sourceTree = "<group>"; };
+		E19D95E41484A43600C24253 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		E19D95E51484A43600C24253 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		E19D95E61484A43600C24253 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		E19D95E91484A48900C24253 /* JSONKitTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKitTests.h; sourceTree = "<group>"; };
+		E19D95EA1484A48900C24253 /* JSONKitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKitTests.m; sourceTree = "<group>"; };
+		E19D95ED1484A57400C24253 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		E19D95F31484AB6600C24253 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		E19D95F61484ACCD00C24253 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E19D95FD1484B19700C24253 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E19D96001484B26300C24253 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		E1C0B8DE14833ADE00FCB2B1 /* UIDevice+IEK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+IEK.h"; sourceTree = "<group>"; };
 		E1C0B8DF14833ADE00FCB2B1 /* UIDevice+IEK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+IEK.m"; sourceTree = "<group>"; };
 		E1C735AD1406A8440048FF8B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -205,6 +239,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E19D96011484B26300C24253 /* MobileCoreServices.framework in Frameworks */,
+				E19D95FE1484B19700C24253 /* SystemConfiguration.framework in Frameworks */,
+				E19D95F71484ACCD00C24253 /* CFNetwork.framework in Frameworks */,
+				E19D95F41484AB6600C24253 /* libz.dylib in Frameworks */,
+				E19D95EE1484A57400C24253 /* libxml2.dylib in Frameworks */,
 				E1C735B01406A86B0048FF8B /* UIKit.framework in Frameworks */,
 				E1C735AE1406A8440048FF8B /* CoreGraphics.framework in Frameworks */,
 				E115467B1405319700DB7F8D /* Foundation.framework in Frameworks */,
@@ -217,7 +256,14 @@
 			files = (
 				E11546891405319700DB7F8D /* SenTestingKit.framework in Frameworks */,
 				E115468C1405319700DB7F8D /* Foundation.framework in Frameworks */,
-				E11546911405319700DB7F8D /* libiOS Easy Kit.a in Frameworks */,
+				E11546911405319700DB7F8D /* libiOSEasyKit.a in Frameworks */,
+				E19D95EF1484A57B00C24253 /* libxml2.dylib in Frameworks */,
+				E19D95F11484A93400C24253 /* UIKit.framework in Frameworks */,
+				E19D95F21484A94E00C24253 /* CoreGraphics.framework in Frameworks */,
+				E19D95F51484AB7700C24253 /* libz.dylib in Frameworks */,
+				E19D95F81484ACD000C24253 /* CFNetwork.framework in Frameworks */,
+				E19D95FF1484B1AB00C24253 /* SystemConfiguration.framework in Frameworks */,
+				E19D96021484B26700C24253 /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +273,7 @@
 		E115466C1405319700DB7F8D = {
 			isa = PBXGroup;
 			children = (
+				E19D95E21484A3DB00C24253 /* JSONKit */,
 				E168DA20148479A000380F7A /* ASIHttpRequest */,
 				E115467C1405319700DB7F8D /* iOS Easy Kit */,
 				E11546921405319700DB7F8D /* iOS Easy KitTests */,
@@ -238,7 +285,7 @@
 		E11546781405319700DB7F8D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E11546771405319700DB7F8D /* libiOS Easy Kit.a */,
+				E11546771405319700DB7F8D /* libiOSEasyKit.a */,
 				E11546871405319700DB7F8D /* iOS Easy KitTests.octest */,
 			);
 			name = Products;
@@ -247,6 +294,11 @@
 		E11546791405319700DB7F8D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E19D95F31484AB6600C24253 /* libz.dylib */,
+				E19D95ED1484A57400C24253 /* libxml2.dylib */,
+				E19D96001484B26300C24253 /* MobileCoreServices.framework */,
+				E19D95FD1484B19700C24253 /* SystemConfiguration.framework */,
+				E19D95F61484ACCD00C24253 /* CFNetwork.framework */,
 				E1C735AF1406A86B0048FF8B /* UIKit.framework */,
 				E1C735AD1406A8440048FF8B /* CoreGraphics.framework */,
 				E115467A1405319700DB7F8D /* Foundation.framework */,
@@ -287,6 +339,8 @@
 				E1EBF401140E5EDC00B7FEF4 /* IEKObjectTests.h */,
 				E1EBF402140E5EDC00B7FEF4 /* IEKObjectTests.m */,
 				E11546931405319700DB7F8D /* Supporting Files */,
+				E19D95E91484A48900C24253 /* JSONKitTests.h */,
+				E19D95EA1484A48900C24253 /* JSONKitTests.m */,
 			);
 			path = "iOS Easy KitTests";
 			sourceTree = "<group>";
@@ -329,6 +383,10 @@
 		E168DA20148479A000380F7A /* ASIHttpRequest */ = {
 			isa = PBXGroup;
 			children = (
+				E19D95D61484A38700C24253 /* DONORS */,
+				E19D95D71484A38700C24253 /* External */,
+				E19D95DD1484A38700C24253 /* LICENSE */,
+				E19D95DE1484A38700C24253 /* README.textile */,
 				E168DA2114847ADC00380F7A /* ASIAuthenticationDialog.h */,
 				E168DA2214847ADC00380F7A /* ASIAuthenticationDialog.m */,
 				E168DA2314847ADC00380F7A /* ASICacheDelegate.h */,
@@ -425,6 +483,43 @@
 			path = Utility;
 			sourceTree = "<group>";
 		};
+		E19D95D71484A38700C24253 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				E19D95D81484A38700C24253 /* GHUnit */,
+				E19D95DA1484A38700C24253 /* Reachability */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		E19D95D81484A38700C24253 /* GHUnit */ = {
+			isa = PBXGroup;
+			children = (
+				E19D95D91484A38700C24253 /* README-GHUnit */,
+			);
+			path = GHUnit;
+			sourceTree = "<group>";
+		};
+		E19D95DA1484A38700C24253 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				E19D95DB1484A38700C24253 /* Reachability.h */,
+				E19D95DC1484A38700C24253 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		E19D95E21484A3DB00C24253 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				E19D95E31484A43600C24253 /* CHANGELOG.md */,
+				E19D95E41484A43600C24253 /* JSONKit.h */,
+				E19D95E51484A43600C24253 /* JSONKit.m */,
+				E19D95E61484A43600C24253 /* README.md */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -473,6 +568,8 @@
 				E168DA991484817B00380F7A /* IEKDigest.h in Headers */,
 				E168DA9B1484817B00380F7A /* IEKFontManager.h in Headers */,
 				E168DA9D1484817B00380F7A /* IEKHmac.h in Headers */,
+				E19D95DF1484A38700C24253 /* Reachability.h in Headers */,
+				E19D95E71484A43600C24253 /* JSONKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,7 +590,7 @@
 			);
 			name = "iOS Easy Kit";
 			productName = "iOS Easy Kit";
-			productReference = E11546771405319700DB7F8D /* libiOS Easy Kit.a */;
+			productReference = E11546771405319700DB7F8D /* libiOSEasyKit.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		E11546861405319700DB7F8D /* iOS Easy KitTests */ = {
@@ -609,6 +706,8 @@
 				E168DA9A1484817B00380F7A /* IEKDigest.m in Sources */,
 				E168DA9C1484817B00380F7A /* IEKFontManager.m in Sources */,
 				E168DA9E1484817B00380F7A /* IEKHmac.m in Sources */,
+				E19D95E01484A38700C24253 /* Reachability.m in Sources */,
+				E19D95E81484A43600C24253 /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -619,6 +718,7 @@
 				E115469B1405319700DB7F8D /* IEKCryptoTests.m in Sources */,
 				E1F02A5D140917A5000610A7 /* IEKCodingTests.m in Sources */,
 				E1EBF403140E5EDC00B7FEF4 /* IEKObjectTests.m in Sources */,
+				E19D95F01484A64100C24253 /* JSONKitTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -699,8 +799,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOS Easy Kit/iOS Easy Kit-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = iOSEasyKit;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -717,8 +818,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOS Easy Kit/iOS Easy Kit-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = iOSEasyKit;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

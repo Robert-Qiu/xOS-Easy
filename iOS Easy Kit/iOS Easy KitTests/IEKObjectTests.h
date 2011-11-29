@@ -3,7 +3,7 @@
 //  iOS Easy Kit
 //
 //  Created by Wei Jia Qiu on 8/31/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Robert Qiu. All rights reserved.
 //
 
 #import <CoreGraphics/CoreGraphics.h>

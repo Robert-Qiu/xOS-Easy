@@ -6,4 +6,4 @@
 //  Copyright 2011 Robert Qiu. All rights reserved.
 //
 
-#import "NSString+IEK.h"
+#define VERSION "0.1"
