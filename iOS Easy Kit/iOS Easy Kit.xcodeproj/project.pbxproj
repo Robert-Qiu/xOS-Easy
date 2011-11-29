@@ -16,8 +16,6 @@
 		E115469B1405319700DB7F8D /* IEKCryptoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E115469A1405319700DB7F8D /* IEKCryptoTests.m */; };
 		E11546A614054B0E00DB7F8D /* NSString+IEK.h in Headers */ = {isa = PBXBuildFile; fileRef = E11546A414054B0E00DB7F8D /* NSString+IEK.h */; };
 		E11546A714054B0E00DB7F8D /* NSString+IEK.m in Sources */ = {isa = PBXBuildFile; fileRef = E11546A514054B0E00DB7F8D /* NSString+IEK.m */; };
-		E11546AB1405D21800DB7F8D /* IEKDigest.h in Headers */ = {isa = PBXBuildFile; fileRef = E11546A91405D21800DB7F8D /* IEKDigest.h */; };
-		E11546AC1405D21800DB7F8D /* IEKDigest.m in Sources */ = {isa = PBXBuildFile; fileRef = E11546AA1405D21800DB7F8D /* IEKDigest.m */; };
 		E168DA5514847ADC00380F7A /* ASIAuthenticationDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = E168DA2114847ADC00380F7A /* ASIAuthenticationDialog.h */; };
 		E168DA5614847ADC00380F7A /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = E168DA2214847ADC00380F7A /* ASIAuthenticationDialog.m */; };
 		E168DA5714847ADC00380F7A /* ASICacheDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E168DA2314847ADC00380F7A /* ASICacheDelegate.h */; };
@@ -67,33 +65,35 @@
 		E168DA8314847ADC00380F7A /* ASIS3Request.m in Sources */ = {isa = PBXBuildFile; fileRef = E168DA5214847ADC00380F7A /* ASIS3Request.m */; };
 		E168DA8414847ADC00380F7A /* ASIS3ServiceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E168DA5314847ADC00380F7A /* ASIS3ServiceRequest.h */; };
 		E168DA8514847ADC00380F7A /* ASIS3ServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E168DA5414847ADC00380F7A /* ASIS3ServiceRequest.m */; };
+		E168DA931484817B00380F7A /* IEKBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = E168DA871484817B00380F7A /* IEKBase64.h */; };
+		E168DA941484817B00380F7A /* IEKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = E168DA881484817B00380F7A /* IEKBase64.m */; };
+		E168DA951484817B00380F7A /* IEKColorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E168DA891484817B00380F7A /* IEKColorManager.h */; };
+		E168DA961484817B00380F7A /* IEKColorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E168DA8A1484817B00380F7A /* IEKColorManager.m */; };
+		E168DA971484817B00380F7A /* IEKDateTimeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E168DA8B1484817B00380F7A /* IEKDateTimeHelper.h */; };
+		E168DA981484817B00380F7A /* IEKDateTimeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E168DA8C1484817B00380F7A /* IEKDateTimeHelper.m */; };
+		E168DA991484817B00380F7A /* IEKDigest.h in Headers */ = {isa = PBXBuildFile; fileRef = E168DA8D1484817B00380F7A /* IEKDigest.h */; };
+		E168DA9A1484817B00380F7A /* IEKDigest.m in Sources */ = {isa = PBXBuildFile; fileRef = E168DA8E1484817B00380F7A /* IEKDigest.m */; };
+		E168DA9B1484817B00380F7A /* IEKFontManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E168DA8F1484817B00380F7A /* IEKFontManager.h */; };
+		E168DA9C1484817B00380F7A /* IEKFontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E168DA901484817B00380F7A /* IEKFontManager.m */; };
+		E168DA9D1484817B00380F7A /* IEKHmac.h in Headers */ = {isa = PBXBuildFile; fileRef = E168DA911484817B00380F7A /* IEKHmac.h */; };
+		E168DA9E1484817B00380F7A /* IEKHmac.m in Sources */ = {isa = PBXBuildFile; fileRef = E168DA921484817B00380F7A /* IEKHmac.m */; };
 		E1C0B8E014833ADE00FCB2B1 /* UIDevice+IEK.h in Headers */ = {isa = PBXBuildFile; fileRef = E1C0B8DE14833ADE00FCB2B1 /* UIDevice+IEK.h */; };
 		E1C0B8E114833ADE00FCB2B1 /* UIDevice+IEK.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C0B8DF14833ADE00FCB2B1 /* UIDevice+IEK.m */; };
 		E1C735AE1406A8440048FF8B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C735AD1406A8440048FF8B /* CoreGraphics.framework */; };
 		E1C735B01406A86B0048FF8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C735AF1406A86B0048FF8B /* UIKit.framework */; };
 		E1E6138C140674D7007BC75C /* NSDate+IEK.h in Headers */ = {isa = PBXBuildFile; fileRef = E1E6138A140674D7007BC75C /* NSDate+IEK.h */; };
 		E1E6138D140674D7007BC75C /* NSDate+IEK.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E6138B140674D7007BC75C /* NSDate+IEK.m */; };
-		E1E6139114068B17007BC75C /* IEKHmac.h in Headers */ = {isa = PBXBuildFile; fileRef = E1E6138F14068B17007BC75C /* IEKHmac.h */; };
-		E1E6139214068B17007BC75C /* IEKHmac.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E6139014068B17007BC75C /* IEKHmac.m */; };
 		E1EA2975140D1F9D009333F4 /* NSDictionary+IEK.h in Headers */ = {isa = PBXBuildFile; fileRef = E1EA2973140D1F9D009333F4 /* NSDictionary+IEK.h */; };
 		E1EA2976140D1F9D009333F4 /* NSDictionary+IEK.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EA2974140D1F9D009333F4 /* NSDictionary+IEK.m */; };
 		E1EA297A140D1FF7009333F4 /* IEKObject.h in Headers */ = {isa = PBXBuildFile; fileRef = E1EA2978140D1FF7009333F4 /* IEKObject.h */; };
 		E1EA297B140D1FF7009333F4 /* IEKObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EA2979140D1FF7009333F4 /* IEKObject.m */; };
 		E1EBF403140E5EDC00B7FEF4 /* IEKObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EBF402140E5EDC00B7FEF4 /* IEKObjectTests.m */; };
-		E1EBF40C140E818900B7FEF4 /* IEKDateTimeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E1EBF40A140E818900B7FEF4 /* IEKDateTimeHelper.h */; };
-		E1EBF40D140E818900B7FEF4 /* IEKDateTimeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EBF40B140E818900B7FEF4 /* IEKDateTimeHelper.m */; };
-		E1F02A571408816E000610A7 /* IEKBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = E1F02A551408816E000610A7 /* IEKBase64.h */; };
-		E1F02A581408816E000610A7 /* IEKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F02A561408816E000610A7 /* IEKBase64.m */; };
 		E1F02A5B1409165C000610A7 /* IEKCodingTests.h in Headers */ = {isa = PBXBuildFile; fileRef = E1F02A591409165C000610A7 /* IEKCodingTests.h */; };
 		E1F02A5D140917A5000610A7 /* IEKCodingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F02A5A1409165C000610A7 /* IEKCodingTests.m */; };
 		E1F02A671409D417000610A7 /* UIFont+IEK.h in Headers */ = {isa = PBXBuildFile; fileRef = E1F02A651409D417000610A7 /* UIFont+IEK.h */; };
 		E1F02A681409D417000610A7 /* UIFont+IEK.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F02A661409D417000610A7 /* UIFont+IEK.m */; };
 		E1F02A6D1409D719000610A7 /* UIColor+IEK.h in Headers */ = {isa = PBXBuildFile; fileRef = E1F02A6B1409D719000610A7 /* UIColor+IEK.h */; };
 		E1F02A6E1409D719000610A7 /* UIColor+IEK.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F02A6C1409D719000610A7 /* UIColor+IEK.m */; };
-		E1F02A711409D76B000610A7 /* IEKFontManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E1F02A6F1409D76B000610A7 /* IEKFontManager.h */; };
-		E1F02A721409D76B000610A7 /* IEKFontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F02A701409D76B000610A7 /* IEKFontManager.m */; };
-		E1F02A751409D782000610A7 /* IEKColorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E1F02A731409D782000610A7 /* IEKColorManager.h */; };
-		E1F02A761409D782000610A7 /* IEKColorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F02A741409D782000610A7 /* IEKColorManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,8 +119,6 @@
 		E115469A1405319700DB7F8D /* IEKCryptoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IEKCryptoTests.m; sourceTree = "<group>"; };
 		E11546A414054B0E00DB7F8D /* NSString+IEK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IEK.h"; sourceTree = "<group>"; };
 		E11546A514054B0E00DB7F8D /* NSString+IEK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IEK.m"; sourceTree = "<group>"; };
-		E11546A91405D21800DB7F8D /* IEKDigest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEKDigest.h; sourceTree = "<group>"; };
-		E11546AA1405D21800DB7F8D /* IEKDigest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEKDigest.m; sourceTree = "<group>"; };
 		E168DA2114847ADC00380F7A /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
 		E168DA2214847ADC00380F7A /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
 		E168DA2314847ADC00380F7A /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
@@ -170,34 +168,36 @@
 		E168DA5214847ADC00380F7A /* ASIS3Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIS3Request.m; sourceTree = "<group>"; };
 		E168DA5314847ADC00380F7A /* ASIS3ServiceRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIS3ServiceRequest.h; sourceTree = "<group>"; };
 		E168DA5414847ADC00380F7A /* ASIS3ServiceRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIS3ServiceRequest.m; sourceTree = "<group>"; };
+		E168DA871484817B00380F7A /* IEKBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEKBase64.h; sourceTree = "<group>"; };
+		E168DA881484817B00380F7A /* IEKBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEKBase64.m; sourceTree = "<group>"; };
+		E168DA891484817B00380F7A /* IEKColorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEKColorManager.h; sourceTree = "<group>"; };
+		E168DA8A1484817B00380F7A /* IEKColorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEKColorManager.m; sourceTree = "<group>"; };
+		E168DA8B1484817B00380F7A /* IEKDateTimeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEKDateTimeHelper.h; sourceTree = "<group>"; };
+		E168DA8C1484817B00380F7A /* IEKDateTimeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEKDateTimeHelper.m; sourceTree = "<group>"; };
+		E168DA8D1484817B00380F7A /* IEKDigest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEKDigest.h; sourceTree = "<group>"; };
+		E168DA8E1484817B00380F7A /* IEKDigest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEKDigest.m; sourceTree = "<group>"; };
+		E168DA8F1484817B00380F7A /* IEKFontManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEKFontManager.h; sourceTree = "<group>"; };
+		E168DA901484817B00380F7A /* IEKFontManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEKFontManager.m; sourceTree = "<group>"; };
+		E168DA911484817B00380F7A /* IEKHmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEKHmac.h; sourceTree = "<group>"; };
+		E168DA921484817B00380F7A /* IEKHmac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEKHmac.m; sourceTree = "<group>"; };
 		E1C0B8DE14833ADE00FCB2B1 /* UIDevice+IEK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+IEK.h"; sourceTree = "<group>"; };
 		E1C0B8DF14833ADE00FCB2B1 /* UIDevice+IEK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+IEK.m"; sourceTree = "<group>"; };
 		E1C735AD1406A8440048FF8B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		E1C735AF1406A86B0048FF8B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E1E6138A140674D7007BC75C /* NSDate+IEK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+IEK.h"; sourceTree = "<group>"; };
 		E1E6138B140674D7007BC75C /* NSDate+IEK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+IEK.m"; sourceTree = "<group>"; };
-		E1E6138F14068B17007BC75C /* IEKHmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEKHmac.h; sourceTree = "<group>"; };
-		E1E6139014068B17007BC75C /* IEKHmac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEKHmac.m; sourceTree = "<group>"; };
 		E1EA2973140D1F9D009333F4 /* NSDictionary+IEK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+IEK.h"; sourceTree = "<group>"; };
 		E1EA2974140D1F9D009333F4 /* NSDictionary+IEK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+IEK.m"; sourceTree = "<group>"; };
 		E1EA2978140D1FF7009333F4 /* IEKObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEKObject.h; sourceTree = "<group>"; };
 		E1EA2979140D1FF7009333F4 /* IEKObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEKObject.m; sourceTree = "<group>"; };
 		E1EBF401140E5EDC00B7FEF4 /* IEKObjectTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEKObjectTests.h; sourceTree = "<group>"; };
 		E1EBF402140E5EDC00B7FEF4 /* IEKObjectTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEKObjectTests.m; sourceTree = "<group>"; };
-		E1EBF40A140E818900B7FEF4 /* IEKDateTimeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEKDateTimeHelper.h; sourceTree = "<group>"; };
-		E1EBF40B140E818900B7FEF4 /* IEKDateTimeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEKDateTimeHelper.m; sourceTree = "<group>"; };
-		E1F02A551408816E000610A7 /* IEKBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEKBase64.h; sourceTree = "<group>"; };
-		E1F02A561408816E000610A7 /* IEKBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEKBase64.m; sourceTree = "<group>"; };
 		E1F02A591409165C000610A7 /* IEKCodingTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEKCodingTests.h; sourceTree = "<group>"; };
 		E1F02A5A1409165C000610A7 /* IEKCodingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEKCodingTests.m; sourceTree = "<group>"; };
 		E1F02A651409D417000610A7 /* UIFont+IEK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+IEK.h"; sourceTree = "<group>"; };
 		E1F02A661409D417000610A7 /* UIFont+IEK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+IEK.m"; sourceTree = "<group>"; };
 		E1F02A6B1409D719000610A7 /* UIColor+IEK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+IEK.h"; sourceTree = "<group>"; };
 		E1F02A6C1409D719000610A7 /* UIColor+IEK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+IEK.m"; sourceTree = "<group>"; };
-		E1F02A6F1409D76B000610A7 /* IEKFontManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEKFontManager.h; sourceTree = "<group>"; };
-		E1F02A701409D76B000610A7 /* IEKFontManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEKFontManager.m; sourceTree = "<group>"; };
-		E1F02A731409D782000610A7 /* IEKColorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEKColorManager.h; sourceTree = "<group>"; };
-		E1F02A741409D782000610A7 /* IEKColorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEKColorManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -258,13 +258,9 @@
 		E115467C1405319700DB7F8D /* iOS Easy Kit */ = {
 			isa = PBXGroup;
 			children = (
+				E168DA861484807C00380F7A /* Utility */,
 				E168DA1F148478D400380F7A /* Web */,
-				E1EBF40E140F0A0300B7FEF4 /* Security */,
-				E1EBF409140E813C00B7FEF4 /* DateTime */,
-				E1F02A6A1409D6C2000610A7 /* Resource */,
-				E1F02A5314088130000610A7 /* Coding */,
-				E11546AD1405D22F00DB7F8D /* Crypto */,
-				E11546A814054B3500DB7F8D /* Categories */,
+				E11546A814054B3500DB7F8D /* Category */,
 				E115467F1405319700DB7F8D /* iOSEasyKit.h */,
 				E1EA2978140D1FF7009333F4 /* IEKObject.h */,
 				E1EA2979140D1FF7009333F4 /* IEKObject.m */,
@@ -304,7 +300,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E11546A814054B3500DB7F8D /* Categories */ = {
+		E11546A814054B3500DB7F8D /* Category */ = {
 			isa = PBXGroup;
 			children = (
 				E11546A414054B0E00DB7F8D /* NSString+IEK.h */,
@@ -320,18 +316,7 @@
 				E1C0B8DE14833ADE00FCB2B1 /* UIDevice+IEK.h */,
 				E1C0B8DF14833ADE00FCB2B1 /* UIDevice+IEK.m */,
 			);
-			name = Categories;
-			sourceTree = "<group>";
-		};
-		E11546AD1405D22F00DB7F8D /* Crypto */ = {
-			isa = PBXGroup;
-			children = (
-				E11546A91405D21800DB7F8D /* IEKDigest.h */,
-				E11546AA1405D21800DB7F8D /* IEKDigest.m */,
-				E1E6138F14068B17007BC75C /* IEKHmac.h */,
-				E1E6139014068B17007BC75C /* IEKHmac.m */,
-			);
-			name = Crypto;
+			path = Category;
 			sourceTree = "<group>";
 		};
 		E168DA1F148478D400380F7A /* Web */ = {
@@ -422,47 +407,30 @@
 			path = S3;
 			sourceTree = "<group>";
 		};
+		E168DA861484807C00380F7A /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E168DA871484817B00380F7A /* IEKBase64.h */,
+				E168DA881484817B00380F7A /* IEKBase64.m */,
+				E168DA891484817B00380F7A /* IEKColorManager.h */,
+				E168DA8A1484817B00380F7A /* IEKColorManager.m */,
+				E168DA8B1484817B00380F7A /* IEKDateTimeHelper.h */,
+				E168DA8C1484817B00380F7A /* IEKDateTimeHelper.m */,
+				E168DA8D1484817B00380F7A /* IEKDigest.h */,
+				E168DA8E1484817B00380F7A /* IEKDigest.m */,
+				E168DA8F1484817B00380F7A /* IEKFontManager.h */,
+				E168DA901484817B00380F7A /* IEKFontManager.m */,
+				E168DA911484817B00380F7A /* IEKHmac.h */,
+				E168DA921484817B00380F7A /* IEKHmac.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		E1C0B8DC1483361F00FCB2B1 /* Twitter */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Twitter;
-			sourceTree = "<group>";
-		};
-		E1EBF409140E813C00B7FEF4 /* DateTime */ = {
-			isa = PBXGroup;
-			children = (
-				E1EBF40A140E818900B7FEF4 /* IEKDateTimeHelper.h */,
-				E1EBF40B140E818900B7FEF4 /* IEKDateTimeHelper.m */,
-			);
-			name = DateTime;
-			sourceTree = "<group>";
-		};
-		E1EBF40E140F0A0300B7FEF4 /* Security */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Security;
-			sourceTree = "<group>";
-		};
-		E1F02A5314088130000610A7 /* Coding */ = {
-			isa = PBXGroup;
-			children = (
-				E1F02A551408816E000610A7 /* IEKBase64.h */,
-				E1F02A561408816E000610A7 /* IEKBase64.m */,
-			);
-			name = Coding;
-			sourceTree = "<group>";
-		};
-		E1F02A6A1409D6C2000610A7 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				E1F02A6F1409D76B000610A7 /* IEKFontManager.h */,
-				E1F02A701409D76B000610A7 /* IEKFontManager.m */,
-				E1F02A731409D782000610A7 /* IEKColorManager.h */,
-				E1F02A741409D782000610A7 /* IEKColorManager.m */,
-			);
-			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -473,18 +441,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E11546A614054B0E00DB7F8D /* NSString+IEK.h in Headers */,
-				E11546AB1405D21800DB7F8D /* IEKDigest.h in Headers */,
 				E1E6138C140674D7007BC75C /* NSDate+IEK.h in Headers */,
-				E1E6139114068B17007BC75C /* IEKHmac.h in Headers */,
-				E1F02A571408816E000610A7 /* IEKBase64.h in Headers */,
 				E1F02A5B1409165C000610A7 /* IEKCodingTests.h in Headers */,
 				E1F02A671409D417000610A7 /* UIFont+IEK.h in Headers */,
 				E1F02A6D1409D719000610A7 /* UIColor+IEK.h in Headers */,
-				E1F02A711409D76B000610A7 /* IEKFontManager.h in Headers */,
-				E1F02A751409D782000610A7 /* IEKColorManager.h in Headers */,
 				E1EA2975140D1F9D009333F4 /* NSDictionary+IEK.h in Headers */,
 				E1EA297A140D1FF7009333F4 /* IEKObject.h in Headers */,
-				E1EBF40C140E818900B7FEF4 /* IEKDateTimeHelper.h in Headers */,
 				E1C0B8E014833ADE00FCB2B1 /* UIDevice+IEK.h in Headers */,
 				E168DA5514847ADC00380F7A /* ASIAuthenticationDialog.h in Headers */,
 				E168DA5714847ADC00380F7A /* ASICacheDelegate.h in Headers */,
@@ -513,6 +475,12 @@
 				E168DA8014847ADC00380F7A /* ASIS3ObjectRequest.h in Headers */,
 				E168DA8214847ADC00380F7A /* ASIS3Request.h in Headers */,
 				E168DA8414847ADC00380F7A /* ASIS3ServiceRequest.h in Headers */,
+				E168DA931484817B00380F7A /* IEKBase64.h in Headers */,
+				E168DA951484817B00380F7A /* IEKColorManager.h in Headers */,
+				E168DA971484817B00380F7A /* IEKDateTimeHelper.h in Headers */,
+				E168DA991484817B00380F7A /* IEKDigest.h in Headers */,
+				E168DA9B1484817B00380F7A /* IEKFontManager.h in Headers */,
+				E168DA9D1484817B00380F7A /* IEKHmac.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,17 +583,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E11546A714054B0E00DB7F8D /* NSString+IEK.m in Sources */,
-				E11546AC1405D21800DB7F8D /* IEKDigest.m in Sources */,
 				E1E6138D140674D7007BC75C /* NSDate+IEK.m in Sources */,
-				E1E6139214068B17007BC75C /* IEKHmac.m in Sources */,
-				E1F02A581408816E000610A7 /* IEKBase64.m in Sources */,
 				E1F02A681409D417000610A7 /* UIFont+IEK.m in Sources */,
 				E1F02A6E1409D719000610A7 /* UIColor+IEK.m in Sources */,
-				E1F02A721409D76B000610A7 /* IEKFontManager.m in Sources */,
-				E1F02A761409D782000610A7 /* IEKColorManager.m in Sources */,
 				E1EA2976140D1F9D009333F4 /* NSDictionary+IEK.m in Sources */,
 				E1EA297B140D1FF7009333F4 /* IEKObject.m in Sources */,
-				E1EBF40D140E818900B7FEF4 /* IEKDateTimeHelper.m in Sources */,
 				E1C0B8E114833ADE00FCB2B1 /* UIDevice+IEK.m in Sources */,
 				E168DA5614847ADC00380F7A /* ASIAuthenticationDialog.m in Sources */,
 				E168DA5914847ADC00380F7A /* ASIDataCompressor.m in Sources */,
@@ -649,6 +611,12 @@
 				E168DA8114847ADC00380F7A /* ASIS3ObjectRequest.m in Sources */,
 				E168DA8314847ADC00380F7A /* ASIS3Request.m in Sources */,
 				E168DA8514847ADC00380F7A /* ASIS3ServiceRequest.m in Sources */,
+				E168DA941484817B00380F7A /* IEKBase64.m in Sources */,
+				E168DA961484817B00380F7A /* IEKColorManager.m in Sources */,
+				E168DA981484817B00380F7A /* IEKDateTimeHelper.m in Sources */,
+				E168DA9A1484817B00380F7A /* IEKDigest.m in Sources */,
+				E168DA9C1484817B00380F7A /* IEKFontManager.m in Sources */,
+				E168DA9E1484817B00380F7A /* IEKHmac.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
